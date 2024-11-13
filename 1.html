@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Store</title>
+  <link rel="stylesheet" href="2.css">
+</head>
+<body>
+
+  <div class="store-container">
+    <h1>Welcome to the Plant Store!</h1>
+    <div class="plants">
+      <div class="plant-item">
+        <img src="plant1.jpg" alt="Plant 1" class="plant-image">
+        <h3>Plant 1</h3>
+        <p>$10.00</p>
+        <button class="add-to-basket" data-name="Plant 1" data-price="10.00">Add to Basket</button>
+      </div>
+      <div class="plant-item">
+        <img src="plant2.jpg" alt="Plant 2" class="plant-image">
+        <h3>Plant 2</h3>
+        <p>$15.00</p>
+        <button class="add-to-basket" data-name="Plant 2" data-price="15.00">Add to Basket</button>
+      </div>
+      <div class="plant-item">
+        <img src="plant3.jpg" alt="Plant 3" class="plant-image">
+        <h3>Plant 3</h3>
+        <p>$20.00</p>
+        <button class="add-to-basket" data-name="Plant 3" data-price="20.00">Add to Basket</button>
+      </div>
+    </div>
+
+    <div class="basket">
+      <h2>Your Basket</h2>
+      <ul id="basket-list"></ul>
+      <p>Total: $<span id="total-price">0.00</span></p>
+      <button id="checkout-btn">Checkout</button>
+    </div>
+  </div>
+
+  <script src="3.js"></script>
+</body>
+</html>
